@@ -44,15 +44,6 @@
 
 - Navigate to http://localhost:4200/ in your web browser. The application will automatically reload if you modify any source files.
 
-### Running Unit Tests
-
-Execute unit tests with:
-
-`` ng test ``
-
-This will run the tests via Karma.
-
-
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
