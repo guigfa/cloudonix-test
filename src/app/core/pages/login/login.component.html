@@ -1,0 +1,14 @@
+<div class="d-flex justify-content-center">
+    <mat-card class="w-50">
+        <mat-card-header class="d-flex flex-column align-items-center justify-content-center w-100">
+            <img class="w-100 rounded" src="cloudonix-logo.jpg">
+            <mat-card-title><h2>Login</h2></mat-card-title>
+        </mat-card-header>
+        <div class="p-4">
+            <mat-card-content class="d-flex justify-content-center gap-3">
+                    <input matInput placeholder="Auth Key" [formControl]="authKey">
+                    <button mat-raised-button color="primary" (click)="login()" [disabled]="authKey.invalid">Login</button>
+            </mat-card-content>
+        </div>
+    </mat-card>
+</div>

@@ -1,0 +1,14 @@
+<div class="d-flex flex-column align-items-center p-4 gap-4">
+    <h2>Products</h2>
+    <button mat-raised-button color="primary" (click)="saveOrEdit()"><mat-icon fontIcon="add"></mat-icon>Create</button>
+</div>
+@if(products.length) {
+        <app-table 
+            [dataSource]="products"
+            [loading]="loading" 
+            [displayedColumns]="displayedColumns"
+            (create)="saveOrEdit()"
+            (edit)="saveOrEdit($event)"
+            (delete)="delete($event)"
+        ></app-table>
+}

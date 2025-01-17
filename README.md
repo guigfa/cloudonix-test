@@ -1,27 +1,58 @@
-# Cloudonix
+# Cloudonix Front End Test
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.3.
+### This project was created as part of a technical test using Angular 18. The application demonstrates the use of Angular 18 features, RxJS, and web components built with Angular Elements.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Angular 18: Utilizes the latest Angular version for modern web development.
 
-## Code scaffolding
+- RxJS: Implements reactive programming for handling asynchronous data streams.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Web Components: Leverages Angular Elements to create reusable web components.
 
-## Build
+- Standalone Components
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Getting Started
 
-## Running unit tests
+#### Prerequisites
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+##### Ensure you have the following installed:
 
-## Running end-to-end tests
+- Node.js (version 18 or higher)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- Angular CLI (version 18.1.3 or higher)
 
-## Further help
+#### Installation
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- Clone the repository:
+
+`` git clone https://github.com/your-repo/cloudonix-technical-test.git ``
+
+- Navigate to the project directory:
+
+`` cd cloudonix-technical-test `` 
+
+- Install dependencies:
+
+`` npm install `` 
+
+#### Development Server
+
+- Run the following command to start the development server:
+
+`` ng serve `` 
+
+- Navigate to http://localhost:4200/ in your web browser. The application will automatically reload if you modify any source files.
+
+### Running Unit Tests
+
+Execute unit tests with:
+
+`` ng test ``
+
+This will run the tests via Karma.
+
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
